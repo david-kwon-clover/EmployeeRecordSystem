@@ -1,2 +1,6 @@
-public class Manager {
+public class Manager extends Employee {
+  String department;
+  Manager() {
+    super()
+  }
 }
