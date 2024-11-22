@@ -5,7 +5,7 @@ public class SalesPerson extends Employee {
     super(employeeId, name, age, jobTitle, salary);
     this.salesTarget = salesTarget;
   }
-  
+
   public int getSalesTarget() {
     return this.salesTarget;
   }
